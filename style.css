@@ -608,6 +608,7 @@ h2 {
   height: 292px;
   background: url(./image/upgrade_bg.jpg) no-repeat;
   text-align: center;
+  cursor: pointer;
 }
 
 .upgrade h2 {
@@ -637,12 +638,3 @@ h2 {
   color: rgba(12,98,186,1);
 }
 
-#header {
-  height: 65px;
-  border: 1px solid #eeeeee;
-}
-
-#footer {
-  height: 220px;
-  border: 1px solid #eeeeee;
-}
