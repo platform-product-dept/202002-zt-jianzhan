@@ -21,7 +21,7 @@
   margin: 0 auto;
 }
 
-.banner-content .wrapped {
+.banner-content .banner-content-wrapped {
   padding-top: 130px;
   padding-left: 98px;
 }
@@ -52,6 +52,10 @@
   font-weight:bold;
   color:rgba(255,255,255,1);
   line-height:42px;
+}
+
+.banner-content h1 span {
+  color: #ffffff;
 }
 
 .banner-content p {
