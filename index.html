@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div>header</div>
+  <!-- <div>header</div> -->
 
   <div id="body">
     <div class="banner">
@@ -344,7 +344,7 @@
     </div>
   </div>
   
-  <div>footer</div>
+  <!-- <div>footer</div> -->
 
   <div class="popShad">
     <div class="xinPop">
@@ -426,13 +426,14 @@
       anniv.style.display = 'none';
     }, false);
 
-    var content1 = document.getElementById('tc_content1');
-    var content2 = document.getElementById('tc_content2');
+    var content1 = document.getElementById('tc_annivP1');
+    var content2 = document.getElementById('tc_annivP2');
     $.ajax({
       type: 'POST',
       url: '/shopCartAction.do',
       data: { 'method': 'queryNum' },
       success: function(data) {
+        console.log(typeof data);
         console.log(data);
         // 已登录
         if (data.num == 1) {
